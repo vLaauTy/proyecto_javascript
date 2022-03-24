@@ -66,8 +66,6 @@ const pintarCards = data => {
 }
 
 const agregar = e => {
-    // console.log(e.target)
-    // console.log(e.target.classList.contains('btn-dark'))
     if(e.target.classList.contains('btn-dark')) {      
         manipularCarrito(e.target.parentElement)
     }
